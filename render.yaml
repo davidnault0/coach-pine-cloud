@@ -11,7 +11,7 @@ services:
       - key: OANDA_ACCOUNT_ID
         value: 101-002-37655263-001
       - key: OPENAI_API_KEY
-        value: sk-...
+        value: srv-d4a5k8p5pdvs73e0k7lg
       - key: TELEGRAM_TOKEN
         value: 8476632235:AAHnCiD1SZiHwB-8Vp6musVQjqd41W3mIMg
       - key: TELEGRAM_CHAT_ID
