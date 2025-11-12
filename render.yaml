@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: coach-pine
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: OANDA_API_KEY
+        value: colle_ta_clé_ici
+      - key: OANDA_ACCOUNT_ID
+        value: 101-004-xxxxxxx-001
+      - key: OPENAI_API_KEY
+        value: sk-...
+      - key: TELEGRAM_TOKEN
+        value: botxxxxxxxxx:AA...
+      - key: TELEGRAM_CHAT_ID
+        value: 123456789
