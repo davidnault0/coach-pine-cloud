@@ -13,6 +13,6 @@ services:
       - key: 44b2adb4858bba0e96cfb4c18c57ca89-559895eb9537d4f2f58f3653cf49af2a
         value: sk-...
       - key: TELEGRAM_TOKEN
-        value: botxxxxxxxx:AA...
+        value: 8476632235:AAHnCiD1SZiHwB-8Vp6musVQjqd41W3mIMg
       - key: TELEGRAM_CHAT_ID
-        value: 123456789
+        value: 8476632235
