@@ -9,8 +9,8 @@ services:
       - key: OANDA_API_KEY
         value: colle_ta_clé_ici
       - key: OANDA_ACCOUNT_ID
-        value: 101-004-xxxxxxx-001
-      - key: OPENAI_API_KEY
+        value: 101-002-37655263-001
+      - key: 44b2adb4858bba0e96cfb4c18c57ca89-559895eb9537d4f2f58f3653cf49af2a
         value: sk-...
       - key: TELEGRAM_TOKEN
         value: botxxxxxxxx:AA...
