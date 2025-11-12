@@ -7,7 +7,7 @@ services:
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
     envVars:
       - key: OANDA_API_KEY
-        value: 44b2adb4858bba0e96cfb4c18c57ca89-559895eb9537d4f2f58f3653cf49af2a
+        value: 7aebce90504e63e822c57ef1fc470342-c08d4902fac33b484ee1585ffb8eab77
       - key: OANDA_ACCOUNT_ID
         value: 101-002-37655263-001
       - key: OPENAI_API_KEY
