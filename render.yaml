@@ -6,10 +6,8 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
     envVars:
-      - key: OANDA_API_KEY
-        value: 7aebce90504e63e822c57ef1fc470342-c08d4902fac33b484ee1585ffb8eab77
-      - key: OANDA_ACCOUNT_ID
-        value: 101-002-37655263-001
+      - key: TWELVE_API_KEY
+        value: 3091384f8534446ebba073d802a2e282
       - key: OPENAI_API_KEY
         value: srv-d4a5k8p5pdvs73e0k7lg
       - key: TELEGRAM_TOKEN
